@@ -1,0 +1,19 @@
+.upload {
+  height: 100%;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.tablecontainer {
+  background-color: rgb(245, 241, 241);
+  border-radius: 4px;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+}
